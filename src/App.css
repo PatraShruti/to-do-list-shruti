@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f4f4f4;
+  background: #f4f6f9;
 }
 
 .container {
@@ -9,8 +9,12 @@ body {
   text-align: center;
   background: white;
   padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
 }
 
 .input-section {
@@ -35,7 +39,12 @@ ul {
 }
 
 li {
+  background: #e3f2fd;      /* Light blue background */
+  color: #0d47a1;           /* Dark blue text */
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  align-items: center;
 }
